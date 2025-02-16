@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Tutor - Remote Learning</title>
+  <link rel="stylesheet" href="A.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">
+      <img src="Uoj.jpg" alt="Institution Logo">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#student-dashboard">Student Dashboard</a></li>
+      <li><a href="#teacher-dashboard">Teacher Dashboard</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Student Dashboard -->
+  <section id="student-dashboard">
+    <h1>Welcome, Student!</h1>
+    <div class="lesson-list">
+      <h2>Your Lessons</h2>
+      <ul id="lessons"></ul>
+    </div>
+    <div class="quiz">
+      <h2>Take a Quiz</h2>
+      <button id="start-quiz">Start Quiz</button>
+    </div>
+    <div class="progress">
+      <h2>Your Progress</h2>
+      <p>Weak Areas: <span id="weak-areas">Loading...</span></p>
+    </div>
+  </section>
+
+  <!-- Teacher Dashboard -->
+  <section id="teacher-dashboard">
+    <h1>Welcome, Teacher!</h1>
+    <div class="upload-lesson">
+      <h2>Upload a Lesson</h2>
+      <input type="file" id="lesson-file">
+      <button id="upload-lesson">Upload</button>
+    </div>
+    <div class="student-reports">
+      <h2>Student Reports</h2>
+      <ul id="reports"></ul>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h1>About AI Tutor</h1>
+    <p>This platform helps teachers and students collaborate effectively using AI-powered tools.</p>
+  </section>
+
+  <script src="Y.js"></script>
+</body>
+</html>
+
